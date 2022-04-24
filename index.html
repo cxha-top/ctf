@@ -2,38 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>♡你是无意穿堂风，偏偏孤倨引山洪。</title>
+    <title>星河</title>
     <style>
         .container {
-			color:#fa7c8d;
-			text-align: center;
             width: 60%;
             margin: 10% auto 0;
             background-color: #f0f0f0;
             padding: 2% 5%;
             border-radius: 10px
         }
+
+        h3 {
+           text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>我是垂眉摆渡翁，独独缄言偏爱侬。<br/>
-            <span id="str"></span>
-        </h1>
+        <h3><img src="./qing.jpg" / ></h3>
+        <h3>星河</h3>
     </div>
-<script type="text/javascript">
-     window.onload = function()
-    {
-        var name=getQueryString("n");
-        if(name){
-            document.getElementById('str').innerHTML = name + '&ensp;&ensp;喜欢你的心情很复杂。有时小心翼翼，像叮咚的清泉，依偎的小猫；有时又很强烈，像轰隆的飞机，湖下的暗涌流动。然而这一切只能化为心中一句小小的声音：我真的好喜欢你呀。比起棱角分明的疏离感，我更偏爱你嘴角淡淡的笑意。你笑起来的样子啊，足以融化一座冰山，连挂着虚雪的树梢都温柔。';
-        }
-     }
-    function getQueryString(key){
-        var reg = new RegExp("(^|&)"+key+"=([^&]*)(&|$)");
-        var result = window.location.search.substr(1).match(reg);
-        return result?decodeURIComponent(result[2]):null;
-    }
-</script>
 </body>
 </html>
